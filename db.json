@@ -1,0 +1,62 @@
+{
+  "blogs": [
+    {
+      "id": "1",
+      "title": "My First Blog",
+      "category": "motivation",
+      "description": "feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated",
+      "date": "1/1/1001"
+    },
+    {
+      "id": "2",
+      "title": "My First Blog",
+      "category": "motivation",
+      "description": "feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated",
+      "date": "1/1/1001"
+    },
+    {
+      "id": "3",
+      "title": "My First Blog",
+      "category": "nature",
+      "description": "feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated feeling so motivated",
+      "date": "1/1/1001"
+    },
+    {
+      "title": "Blog it",
+      "description": "werfwerfwewetg<div><br></div>",
+      "category": "travel",
+      "date": "2020/11/6",
+      "id": "1WmNirm"
+    },
+    {
+      "title": "file list for team",
+      "description": "wrwrwerwer",
+      "category": "travel",
+      "date": "2020/11/6",
+      "id": "2WnORh9"
+    },
+    {
+      "title": "regrebr",
+      "description": "vrbvrbvreber<div>rgerbera</div>",
+      "category": "skills",
+      "date": "2020/11/7",
+      "id": "BVTu4nS"
+    }
+  ],
+  "users": [
+    {
+      "first_name": "sharvari",
+      "last_name": "Patil",
+      "password": "111",
+      "email": "sharvaripatil100@gmail.com",
+      "id": "1"
+    },
+    {
+      "first_name": "Dipali",
+      "last_name": "Chavan",
+      "password": "111",
+      "email": "dipali208@gmail.com",
+      "id": "gOTQ9gd"
+    }
+  ]
+}

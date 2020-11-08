@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category</title>
+    <script src="../js/blogPost.js"></script>
+    <script src="../js/category.js"></script>
+    <style>
+      #postArea{
+        overflow: scroll;
+        height: 530px;
+      }
+      .cardPostData{
+        box-shadow: 0 0 5px 8px rgba(71, 23, 61, 0.1);
+      }
+
+      .card-text{
+        color: rgb(56, 54, 54);
+      }
+      .card-title{
+        color: black;
+        font-weight:bold;
+      }
+      .read{
+          columns: #0c7f90;
+          font-size: 15px;
+          margin-top: auto;
+          font-weight: 600;
+      }
+      .read:hover{
+        color: orangered;
+      }
+    
+    </style>
+</head>
+<body>
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+            
+            <div class="col-lg-8">
+                <div class="row" id="postArea"> </div>
+
+            </div>
+    
+          <!-- Sidebar Widgets Column -->
+          <div class="col-md-4">
+    
+            <!-- Search Widget -->
+            <div class="card my-4">
+              <h5 class="card-header">Search</h5>
+              <div class="card-body">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="category" placeholder="Search for...">
+                  <span class="input-group-append">
+                    <button class="btn btn-secondary" type="button" id="Go">Go!</button>
+                  </span>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Categories Widget -->
+            <div class="card my-4" id="category-link">
+              <h5 class="card-header">Categories</h5>
+              <div class="card-body">
+                <!-- Side Widget -->
+                <nav class="navbar bg-light">
+    
+                <!-- Links -->
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">ALL</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Nature</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Technology</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Motivation</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sports</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Life</a>
+                  </li>
+                </ul>
+              </nav>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- /.row -->
+    
+      </div>
+      <!-- /.container -->
+</body>
+</html>
